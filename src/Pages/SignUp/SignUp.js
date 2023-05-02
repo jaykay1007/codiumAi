@@ -70,6 +70,7 @@ let navigate = useNavigate();
   }
 const submit = () => {
   navigate("/dashboard");
+  localStorage.setItem("token", name);
 }
   return (
   <>
